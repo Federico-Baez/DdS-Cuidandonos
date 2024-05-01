@@ -1,0 +1,3 @@
+int calculoDemoraAprox(Trayecto trayectos[]){
+	return trayectos.sum(trayecto => trayecto.estimacionTrayecto + trayecto.tiempoParada)
+}
